@@ -1,0 +1,44 @@
+﻿生成启动时间为 2016/2/28 20:12:16。
+     1>项目“D:\Users\feng\Desktop\研一\计算机视觉\全景拼接\AutomaticPanoramicImageStitchingUsingInvariament\VC1\VC1\VC1\VC1.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\VC1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\imgfeatures.c src\kdtree.c src\match.c src\minpq.c src\sift.c src\utils.c src\xform.c
+         xform.c
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\xform.c(122): warning C4087: “rand”: 用“void”参数列表声明
+         utils.c
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\utils.c(319): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+         sift.c
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\sift.c(187): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\sift.c(341): warning C4101: “sig_total”: 未引用的局部变量
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\sift.c(341): warning C4101: “sig_prev”: 未引用的局部变量
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\sift.c(1380): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\sift.c(1508): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         minpq.c
+         match.c
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\match.c(269): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\match.c(270): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\match.c(271): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+         kdtree.c
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\kdtree.c(630): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+         imgfeatures.c
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\imgfeatures.c(429): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\imgfeatures.c(431): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\imgfeatures.c(433): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\users\feng\desktop\研一\计算机视觉\全景拼接\automaticpanoramicimagestitchingusinginvariament\vc1\vc1\vc1\src\imgfeatures.c(435): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\feng\Desktop\研一\计算机视觉\全景拼接\AutomaticPanoramicImageStitchingUsingInvariament\VC1\VC1\Debug\VC1.exe" /INCREMENTAL /NOLOGO opencv_calib3d2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_ml2411d.lib opencv_objdetect2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib "gtk-win32-2.0.lib" "atk-1.0.lib" "gio-2.0.lib" "pangowin32-1.0.lib" "pangocairo-1.0.lib" "gdk_pixbuf-2.0.lib" "pango-1.0.lib" cairo.lib "gobject-2.0.lib" "gmodule-2.0.lib" "gthread-2.0.lib" "glib-2.0.lib" intl.lib expat.lib fontconfig.lib freetype.lib gailutil.lib "gdk-win32-2.0.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\feng\Desktop\研一\计算机视觉\全景拼接\AutomaticPanoramicImageStitchingUsingInvariament\VC1\VC1\Debug\VC1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\feng\Desktop\研一\计算机视觉\全景拼接\AutomaticPanoramicImageStitchingUsingInvariament\VC1\VC1\Debug\VC1.lib" /MACHINE:X86 Debug\imgfeatures.obj
+         Debug\kdtree.obj
+         Debug\match.obj
+         Debug\minpq.obj
+         Debug\sift.obj
+         Debug\utils.obj
+         Debug\xform.obj
+         Debug\stdafx.obj
+         VC1.vcxproj -> D:\Users\feng\Desktop\研一\计算机视觉\全景拼接\AutomaticPanoramicImageStitchingUsingInvariament\VC1\VC1\Debug\VC1.exe
+     1>已完成生成项目“D:\Users\feng\Desktop\研一\计算机视觉\全景拼接\AutomaticPanoramicImageStitchingUsingInvariament\VC1\VC1\VC1\VC1.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.39
